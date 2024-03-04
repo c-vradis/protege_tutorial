@@ -7,12 +7,12 @@ footer: "Δημιουργία Οντολογίας με τη χρήση του �
 <style scoped>
 {
     font-size: 17px;
-    font-family: "HelveticaNeue";
+    font-family: "Ysabeau Office";
     padding: 13rem 3rem 1rem 3rem;
 }
 footer {
     font-size: 1px;
-    font-family: "HelveticaNeue";
+    font-family: "Ysabeau Office";
     font-weight: 300;
 }
 </style>
@@ -25,22 +25,22 @@ footer {
 
 Χριστόφορος Βραδής, υποψήφιος διδάκτορας Τμήματος Γεωγραφίας Χαροκοπείου Πανεπιστημίου.
 
-Μάρτιος 2023
+Μάρτιος 2024
 
 ---
 <style>
 {
     font-size: 17px;
-    font-family: "HelveticaNeue";
+    font-family: "Ysabeau Office";
     columns: 1;
     padding: 2rem 3rem 2rem 3rem;
     text-align:left;
     letter-spacing: normal;
-    font-weight: 300;
+    font-weight: 400;
 }
 footer {
     font-size: 11px;
-    font-family: "HelveticaNeue";
+    font-family: "Ysabeau Office";
     font-weight: 300;
     padding: 0 3rem 0 3rem;
 }
