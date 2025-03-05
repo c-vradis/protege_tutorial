@@ -1,0 +1,38 @@
+/* @theme protege */
+
+@import 'default';
+
+section {
+    width: 1050px;
+    height: 1050px;
+    font-size: 22px;
+    font-family: "Geologica";
+    columns: 1;
+    padding: 2rem 3rem 2rem 3rem;
+    text-align: left;
+    letter-spacing: normal;
+    font-weight: 300;
+    vertical-align: top;
+    justify-content: start;
+    color: darkslategray;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    color: navy;
+}
+
+small {
+    font-size: 15px;
+    line-height: 8px;
+}
+
+footer {
+    font-size: 14px;
+    font-family: "Geologica";
+    font-weight: 300;
+    padding: 0 3rem 0 3rem;
+}
