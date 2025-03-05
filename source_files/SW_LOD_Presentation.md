@@ -1,53 +1,20 @@
 ---
 marp: true
-theme: gaia
+theme: protege
 paginate: true
 backgroundColor: #fff
 footer: "Ο Σημασιολογικός Ιστός και τα (Ανοικτά) Διασυνδεδεμένα Δεδομένα / Ερευνητικά Θέματα στη Γεωπληροφορική / Μάρτιος 2024"
 ---
-<style scoped>
-{
-    font-size: 17px;
-    font-family: "Geologica";
-    padding: 2rem 3rem 2rem 3rem;
-}
-footer {
-    font-size: 1px;
-    font-family: "Geologica";
-    font-weight: 300;
-}
-</style>
-
-![height:400px](images/Linked-Open-Data-BVMC.png)
+Χαροκόπειο Πανεπιστήμιο / Τμήμα Γεωγραφίας
+ΠΜΣ “Εφαρμοσμένη Γεωγραφία και Διαχείριση του Χώρου”: Ερευνητικά θέματα στη Γεωπληροφορική 
 
 # Ο Σημασιολογικός Ιστός και τα (Ανοικτά) Διασυνδεδεμένα Δεδομένα 
 ## Πώς τα δεδομένα δια-συνδέονται ώστε να γίνουν πιο αξιοποιήσιμα
+![height:400px](images/Linked-Open-Data-BVMC.png)
 
-Χαροκόπειο Πανεπιστήμιο, Τμήμα Γεωγραφίας, ΠΜΣ “Εφαρμοσμένη Γεωγραφία και Διαχείριση του Χώρου”, Ερευνητικά θέματα στη Γεωπληροφορική 
-
-Χριστόφορος Βραδής, υποψήφιος διδάκτορας Τμήματος Γεωγραφίας Χαροκοπείου Πανεπιστημίου.
-
-Μάρτιος 2025
+Χριστόφορος Βραδής / υποψήφιος διδάκτορας Τμήματος Γεωγραφίας / Μάρτιος 2025
 
 ---
-<style>
-{
-    font-size: 18px;
-    font-weight: 200;
-    font-family: "Geologica";
-    columns: 1;
-    padding: 2rem 3rem 2rem 3rem;
-    text-align:left;
-    letter-spacing: normal;
-}
-footer {
-    font-size: 12px;
-    font-family: "Geologica";
-    font-weight: 200;
-    padding: 0 3rem 0 3rem;
-}
-</style>
-
 # Δομή παρουσίασης
 
 - **Ιστορικό & Θεωρία** → Παγκόσμιος Ιστός -> Σημασιολογικός Ιστός  
@@ -64,7 +31,7 @@ footer {
 
 Με τη σωστή χρήση όλα αυτά τα δεδομένα μπορούν να αποφέρουν οφέλη. Μπορούν να βοηθήσουν στη δημιουργία εξατομικευμένων φαρμάκων, στην καταπολέμηση φυσικών καταστροφών (πλημμυρών, πυρκαγιών, κλπ.), στη βελτίωση των συστημάτων δημόσιων μεταφορών και σε πολλά άλλα. 
 
-Για να αξιοποιήθούν πλήρως τα δεδομένα πρέπει να είναι: 
+Για να αξιοποιηθούν πλήρως τα δεδομένα πρέπει να είναι: 
 
 - **προσβάσιμα** και 
 - **διαθέσιμα σε κάποια τυποποιημένη μορφή**. 
@@ -95,7 +62,7 @@ footer {
 
 Tim Berners-Lee about the Semantic Web in 1999:
 
-![bg left ](images/berners-lee.jpg)
+![bg left:50%](images/berners-lee_long.jpg)
 
 > *"...I have a dream for the Web [in which computers] become capable of analyzing all the data on the Web – the content, links, and transactions between people and computers.* 
 
@@ -139,9 +106,6 @@ Tim Berners-Lee about the Semantic Web in 1999:
 
 *>...The first web browser was also an editor. The idea being that not only could everyone read content on the web, but they could also help create it. It was to be a collaborative space for everyone. However, when the first browser that popularized the web came along, called **Mosaic**, it included multimedia and editing was taken out. It was considered too difficult a problem...*
 <sup>[Πηγή](https://solidproject.org/origin)</sup>
-
----
-# Web 1.0 (Στατικός Παγκόσμιος Ιστός) 
 
 Το 1993 κυκλοφόρησε το λογισμικό **Mosaic**, ένας από τους πρώτους περιηγητές (browsers) του Παγκόσμιου Ιστού, ο οποίος μπορούσε να εμφανίζει γραφικά καθώς και κείμενο. 
 
@@ -277,7 +241,6 @@ Principles that define “openness” in relation to data and content.
 | **GeoNames**                                                             | Contains over 25 million geographical names and consists of over 11 million unique features whereof 4.8 million populated places and 13 million alternate names.                                                                                                     | https://www.geonames.org                            |
 | Wikidata                                                             | Wikidata is a free and open knowledge base that can be read and edited by both humans and machines. | https://www.wikidata.org                            |
 | Virtual International Authority File (VIAF)                          | OCLC’s Virtual International Authority File (VIAF), an aggregation of over 40 authority files from different countries and regions.                                                                                                                                  | https://www.viaf.org                                |
-| DublinCore                                                           | The Dublin Core Metadata Initiative supports innovation in metadata design and best prac- tices. DCMI is supported by its members and is a project of ASIS&T.                                                                                                        | https://www.dublincore.org                          |
 | Resource Description Framework (RDF) |The Resource Description Framework (RDF) is a framework for representing information in the Web. |https://www.w3.org/TR/rdf11-concepts/|
 | Resource Description Framework  Schema (RDFS) |RDF Schema provides a data-modelling vocabulary for RDF data. |https://www.w3.org/TR/rdf12-schema/|
 | Dublin Core |The Dublin Core is a set of fifteen main metadata items for describing digital or physical resources. |https://www.dublincore.org|
@@ -297,11 +260,14 @@ Principles that define “openness” in relation to data and content.
 ![bg right](images/LOV.png)
 
 ---
-# Δύο πλατφόρμες Ανοικτών Διασυνδεδεμένων Δεδομένων 
+# Πλατφόρμες Ανοικτών Διασυνδεδεμένων Δεδομένων 
 
 ## [wikidata.org](https://www.wikidata.org/)
 
 Το Wikidata είναι μια ελεύθερη και ανοικτή γνωσιακή βάση που μπορεί να αναγνωστεί και να επεξεργαστεί τόσο από ανθρώπους όσο και από μηχανές. Το Wikidata λειτουργεί ως κεντρική αποθήκη για δομημένα δεδομένα αδελφών έργων του Wikimedia, όπως η Wikipedia, το Wikivoyage, το Wiktionary, το Wikisource και άλλα. Το Wikidata παρέχει επίσης υποστήριξη σε πολλούς άλλους ιστότοπους και υπηρεσίες πέραν των έργων του Wikimedia. Το περιεχόμενο του Wikidata διατίθεται με ελεύθερη άδεια χρήσης, εξάγεται με τη χρήση τυποποιημένων μορφών και μπορεί να διασυνδεθεί με άλλα σύνολα ανοικτών δεδομένων στον Σημασιολογικό Ιστό <sup>[Πηγή](https://www.wikidata.org/wiki/Wikidata:Main_Page)</sup>.
+
+---
+# Πλατφόρμες Ανοικτών Διασυνδεδεμένων Δεδομένων 
 
 ## [semantics.gr](https://www.semantics.gr/authorities/info/caseStudies)
 
@@ -457,10 +423,11 @@ Bob is a person and a friend of Alice. Alice is a person. Bob is born on the 4th
 --- 
 ## Παράδειγμα RDF
 
-![bg right:50% height:400px](images/example-graph.jpg)
+![bg right:50% height:320px](images/example-graph.jpg)
 <style scoped>
 {
     font-size: 20px;
+    justify-content: center;
 }
 </style>
 
@@ -570,12 +537,9 @@ Alice -> http://example.org/alice
 ---
 # Το ίδιο παράδειγμα RDF αλλά σε Turtle syntax (TTL)
 <style scoped>
-pre {
-    background-color: #555;
-}
 </style>
 
-```xml
+```
 @prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xml:     <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
@@ -732,8 +696,12 @@ SELECT ?s WHERE {
 
 ---
 ## Classes (Κλάσεις)
-
-![bg right](images/Class_Hierarchy_Example.png)
+<style scoped>
+{
+    justify-content: center !important;
+}
+</style>
+![bg right width:100%](images/Class_Hierarchy_Example.png)
 
 Παράδειγμα ταξινομίας (taxonomy) κλάσεων
 
@@ -763,15 +731,23 @@ SELECT ?s WHERE {
 
 ---
 ## Σχέσεις ή Ιδιότητες (Relations / Properties)
-
-![bg right](images/Relation_Hierarchy_Example.png)
+<style scoped>
+{
+    justify-content: center !important;
+}
+</style>
+![bg right width:100%](images/Relation_Hierarchy_Example.png)
 
 Οι σχέσεις στην γλώσσα OWL μπορούν να σχηματίσουν την δική τους **ιεραρχία** (π.χ. η σχέση `hasChild` μπορεί να είναι υπερκλάση της σχέσης `hasDaughter`.)
 
 ---
 ## Individuals (Περιπτώσεις/Πραγματώσεις)
-
-![bg right:55% height:350px](images/Indivudual_Example.png)
+<style scoped>
+{
+    justify-content: center !important;
+}
+</style>
+![bg right width:100%](images/Indivudual_Example.png)
 
 Πρόκειται για συγκεκριμένες περιπτώσεις, ή αλλιώς πραγματώσεις των κλάσεων, αντικείμενα, ή παραδείγματα. Τα individuals αναπαριστούν αντικείμενα στον τομέα που μας ενδιαφέρει. Στη γλώσσα OWL δύο διαφορετικά ονόματα θα μπορούσαν στην πραγματικότητα να αναφέρονται στην ίδια περίπτωση/πραγμάτωση. Για παράδειγμα, τα ονόματα `"Βασίλισσα Ελισάβετ"`, `"Η Βασίλισσα"` και `"Elizabeth Windsor"` μπορεί να αναφέρονται στο ίδιο άτομο. Στην γλώσσα OWL πρέπει να δηλώνεται ρητά ότι δύο ή περισσότερες περιπτώσεις/πραγματώσεις είναι τα ίδια ή διαφορετικά μεταξύ τους, αλλιώς μπορεί να είναι ασαφές αν είναι ίδια ή διαφορετικά. 
 
@@ -874,6 +850,8 @@ SELECT ?s WHERE {
 - [Dodds, L., Davis, .I. (2022). Linked Data Patterns: A pattern catalogue for modelling, publishing, and consuming Linked Data](https://patterns.dataincubator.org/book/)
 
 ---
+# https://github.com/c-vradis/protege_tutorial
+
 # Άδεια χρήσης
 
 [Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)]((https://creativecommons.org/licenses/by-nc/4.0/))
